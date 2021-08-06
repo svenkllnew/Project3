@@ -22,7 +22,7 @@ install:
   
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push svkll/udagram-api-user
-  - docker push svkll/udagram-api-feed
-  - docker push svkll/udagram-reverseproxy
-  - docker push svkll/udagram-frontend
+  - docker push svkll/udagram-api-user:lastest
+  - docker push svkll/udagram-api-feed:lastest
+  - docker push svkll/udagram-reverseproxy:lastest
+  - docker push svkll/udagram-frontend:local
