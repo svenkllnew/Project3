@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 data:
   AWS_BUCKET: c3ZrbGwtZGV2
-  AWS_PROFILE: ZGVmYXVsdA==default
+  AWS_PROFILE: ZGVmYXVsdA==
   AWS_REGION: ZXUtY2VudHJhbC0x
   JWT_SECRET: VGVzdDEyMzQ=Test1234
   POSTGRES_DB: cG9zdGdyZXM=
