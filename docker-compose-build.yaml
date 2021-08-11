@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: svkll/udagram-frontend:local
+    image: svkll/udagram-frontend
